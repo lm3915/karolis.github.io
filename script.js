@@ -1,5 +1,5 @@
 function showMessage(response) {
-  if (response === "No") {
+  if (response === "Ne") {
     const noButton = document.getElementById("no-button");
     const container = document.querySelector(".container");
     const maxWidth = window.innerWidth - noButton.offsetWidth;
@@ -27,7 +27,7 @@ function showMessage(response) {
     // Optional: You can also add a timeout to reset the position after a few seconds
   }
 
-  if (response === "Yes") {
+  if (response === "Taip") {
     // Remove name message and no button
     document.getElementById("name").remove();
     document.getElementById("no-button").remove();
